@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sağlam Kampus</title>
+  <meta name="description" content="Sağlam Kampus - sağlamlıq məhsulları, rəylər və analiz nəticələri bir platformada.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER / NAVİQASİYA -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#home" class="logo">🌿 Sağlam Kampus</a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Menyunu aç" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" id="nav">
+        <ul class="nav__list">
+          <li><a href="#home">Ana səhifə</a></li>
+          <li><a href="#about">Haqqımızda</a></li>
+          <li><a href="#products">Məhsullar</a></li>
+          <li><a href="#analysis">Analiz</a></li>
+          <li><a href="#reviews">Rəylər</a></li>
+          <li><a href="#contact">Əlaqə</a></li>
+        </ul>
+        <div class="nav__actions">
+          <a href="#" class="btn btn--ghost">Daxil ol</a>
+          <a href="#" class="btn btn--primary">Qeydiyyat</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="container hero__inner">
+        <div class="hero__text">
+          <span class="badge">Sağlamlıq platforması</span>
+          <h1>Sağlamlığınız üçün <span class="accent">etibarlı</span> həllər</h1>
+          <p>Məhsulları kəşf edin, digər istifadəçilərin rəylərini oxuyun və analiz nəticələrinə əsasən düzgün qərar verin.</p>
+          <div class="hero__buttons">
+            <a href="#products" class="btn btn--primary btn--lg">Məhsullara bax</a>
+            <a href="#about" class="btn btn--outline btn--lg">Ətraflı</a>
+          </div>
+        </div>
+        <div class="hero__visual" aria-hidden="true">
+          <div class="hero__circle">💊</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HAQQIMIZDA -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section__head">
+          <h2>Niyə Sağlam Kampus?</h2>
+          <p>Platformanın əsas üstünlükləri</p>
+        </div>
+        <div class="grid grid--3">
+          <article class="card">
+            <div class="card__icon">🛒</div>
+            <h3>Rahat sifariş</h3>
+            <p>Məhsulları seçin və bir neçə kliklə sifariş verin.</p>
+          </article>
+          <article class="card">
+            <div class="card__icon">⭐</div>
+            <h3>Real rəylər</h3>
+            <p>İstifadəçilərin təcrübəsinə əsaslanan səmimi rəylər.</p>
+          </article>
+          <article class="card">
+            <div class="card__icon">📊</div>
+            <h3>Analiz nəticələri</h3>
+            <p>Sağalma və təsir göstəricilərini aydın şəkildə izləyin.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- MƏHSULLAR -->
+    <section class="section section--alt" id="products">
+      <div class="container">
+        <div class="section__head">
+          <h2>Məhsullar</h2>
+          <p>Ən çox seçilən məhsullar</p>
+        </div>
+        <div class="grid grid--3">
+          <article class="card product">
+            <div class="product__img">🌿</div>
+            <h3>Məhsul 1</h3>
+            <p>Qısa təsvir yeri. Backend-dən gələn məlumatla əvəz olunacaq.</p>
+            <div class="product__footer">
+              <span class="price">0.00 ₼</span>
+              <a href="#" class="btn btn--primary btn--sm">Ətraflı</a>
+            </div>
+          </article>
+          <article class="card product">
+            <div class="product__img">💧</div>
+            <h3>Məhsul 2</h3>
+            <p>Qısa təsvir yeri. Backend-dən gələn məlumatla əvəz olunacaq.</p>
+            <div class="product__footer">
+              <span class="price">0.00 ₼</span>
+              <a href="#" class="btn btn--primary btn--sm">Ətraflı</a>
+            </div>
+          </article>
+          <article class="card product">
+            <div class="product__img">🍃</div>
+            <h3>Məhsul 3</h3>
+            <p>Qısa təsvir yeri. Backend-dən gələn məlumatla əvəz olunacaq.</p>
+            <div class="product__footer">
+              <span class="price">0.00 ₼</span>
+              <a href="#" class="btn btn--primary btn--sm">Ətraflı</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ANALİZ -->
+    <section class="section" id="analysis">
+      <div class="container">
+        <div class="section__head">
+          <h2>Analiz göstəriciləri</h2>
+          <p>Nümunə məlumatlar (sonradan API ilə əvəz olunacaq)</p>
+        </div>
+        <div class="grid grid--4">
+          <div class="stat">
+            <strong>00%</strong>
+            <span>Sağalma</span>
+          </div>
+          <div class="stat">
+            <strong>00%</strong>
+            <span>Yaxşılaşma</span>
+          </div>
+          <div class="stat">
+            <strong>00%</strong>
+            <span>Əlavə təsir</span>
+          </div>
+          <div class="stat">
+            <strong>000</strong>
+            <span>Nümunə sayı</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RƏYLƏR -->
+    <section class="section section--alt" id="reviews">
+      <div class="container">
+        <div class="section__head">
+          <h2>İstifadəçi rəyləri</h2>
+          <p>İnsanlar nə deyir</p>
+        </div>
+        <div class="grid grid--3">
+          <article class="card review">
+            <div class="stars">★★★★★</div>
+            <p>"Rəy mətni burada olacaq."</p>
+            <strong>İstifadəçi adı</strong>
+          </article>
+          <article class="card review">
+            <div class="stars">★★★★☆</div>
+            <p>"Rəy mətni burada olacaq."</p>
+            <strong>İstifadəçi adı</strong>
+          </article>
+          <article class="card review">
+            <div class="stars">★★★★★</div>
+            <p>"Rəy mətni burada olacaq."</p>
+            <strong>İstifadəçi adı</strong>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ƏLAQƏ / CTA -->
+    <section class="section cta" id="contact">
+      <div class="container cta__inner">
+        <h2>Bizimlə əlaqə saxlayın</h2>
+        <p>Sualınız var? Bizə yazın, kömək edək.</p>
+        <a href="mailto:info@example.com" class="btn btn--light btn--lg">Bizə yazın</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span>🌿 Sağlam Kampus</span>
+      <span>© <span id="year"></span> Bütün hüquqlar qorunur.</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
